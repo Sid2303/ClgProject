@@ -16,31 +16,31 @@ export default function Navbar() {
                     <div className="offcanvas-body">
                         <ul className="navbar-nav justify-content-end flex-grow-1 pe-5">
                             <li className="nav-item fw-medium fs-5">
-                                <NavLink  to="/" className="nav-link active mx-lg-2" aria-current="page">Home</NavLink>
+                                <NavLink className="nav-link active mx-lg-2" aria-current="page" to="/">Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link mx-lg-2 fw-medium fs-5" href="#">Offer</a>
+                                <NavLink className="nav-link mx-lg-2 fw-medium fs-5"  to="/offer">Offer</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link mx-lg-2 fw-medium fs-5" href="#">Details</a>
+                                <NavLink className="nav-link mx-lg-2 fw-medium fs-5" to="/Details">Details</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link mx-lg-2 fw-medium fs-5" href="#">About Us</a>
+                                <NavLink className="nav-link mx-lg-2 fw-medium fs-5"  to="/aboutus">About Us</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link mx-lg-2 fw-medium fs-5" href="#">FAQ</a>
+                                <NavLink className="nav-link mx-lg-2 fw-medium fs-5" to="/faq">FAQ</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link mx-lg-2 fw-medium fs-5" href="#">Contact</a>
+                                <NavLink className="nav-link mx-lg-2 fw-medium fs-5" to="/contact">Contact</NavLink>
                             </li>
-                            
+                                <button className='login-button'>Call Us</button>
                         </ul>
                     </div>
                 </div>
                 <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className='ml-5'>
+                <div className='ms-3'>
                     <button>Call Us</button>
                 </div>
             </div>
