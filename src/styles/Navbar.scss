@@ -1,62 +1,27 @@
 @import 'colors.scss';
 
-
-.active{
-        color: $green;
+.active-link {
+    color: $green;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    top: 0;
-    position: sticky;
 
-    >div>ul{
-        display: flex;
+nav>div>div>button{
+        color: black;
+        font-weight: 400;
+        font-size: larger;
+        padding: 6px 25px;
+        background-color: white;
+        border: solid $green;
+        border-radius: 15px;
+}
 
-        >li{
-            list-style: none;
 
-            >a{
-                display: block;
-                text-decoration: none;
-                color: black;
-                padding: 1rem;
-                font-weight: 450;
-                font-size: large;
-
-                &:hover{
-                    cursor: pointer;
-                }
-            }
-            >div{
-                display: flex;
-                text-align: center;
-                justify-content: center;
-                align-items: center;
-                color: black;
-                height: 3rem;
-                width: 7rem;
-                border-radius: 12px;
-                background-color: white;
-                border: solid $green;
-        
-                &:hover{
-                    cursor: pointer;
-                }
-        
-                >a{
-                    text-decoration: none;
-                    color: black;
-                    font-weight: 450;
-                    font-size: large;
-        
-                }
-            }
-        }
+nav>div>div>div>ul>li>a{
+    .active-link {
+        color: $green;
     }
 }
 
-.navigation{
-    display: flex;
+.navbar-toggler{
+    box-shadow: none;
+    outline: none;
 }

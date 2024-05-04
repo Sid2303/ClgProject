@@ -1,65 +1,74 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 export default function Navbar() {
-  return (
-    <nav>
-        <div className='logo'>
-            <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3.svg"
-            alt="" />
-        </div>
-        <div className='navigation'>
-            <ul>
-                <li>
-                    <NavLink to="/">Home</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/offer">Offer</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/Details">Details</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/aboutus">About Us</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/faq">FAQ</NavLink>
-                </li>
-                <li>
-                    <NavLink to="contact">Contact</NavLink>
-                </li>
-                <li>
-                    <div>
-                        <a href="#">Call Us</a>
-                    </div>  
-                </li>
-            </ul>
-        </div>
-    </nav>
-    // <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    //     <div class="container-fluid">
-    //         <a class="navbar-brand" href="#">Navbar</a>
-    //         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    //         <span class="navbar-toggler-icon"></span>
-    //         </button>
-    //         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    //             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-    //                 <li class="nav-item">
-    //                 <a class="nav-link active" aria-current="page" href="#">Home</a>
-    //                 </li>
-    //                 <li class="nav-item">
-    //                 <a class="nav-link" href="#">Link</a>
-    //                 </li>
-    //                 <li class="nav-item">
-    //                 <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-    //                 </li>
-    //             </ul>
-    //             <form class="d-flex" role="search">
-    //                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-    //                 <button class="btn btn-outline-success" type="submit">Search</button>
-    //             </form>
-    //         </div>
-    //     </div>
-    // </nav>
-  )
+    return (
+        <nav className="navbar navbar-expand-lg sticky-top mt-2">
+            <div className="container-fluid">
+                <a className="navbar-brand me-auto" href="#">
+                    <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3.svg" alt="" />
+                </a>
+                <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div className="offcanvas-header">
+                        <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                        <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div className="offcanvas-body">
+                        <ul className="navbar-nav justify-content-end flex-grow-1 pe-5">
+                            <li className="nav-item fw-medium fs-5">
+                                <NavLink  to="/" className="nav-link active mx-lg-2" aria-current="page">Home</NavLink>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link mx-lg-2 fw-medium fs-5" href="#">Offer</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link mx-lg-2 fw-medium fs-5" href="#">Details</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link mx-lg-2 fw-medium fs-5" href="#">About Us</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link mx-lg-2 fw-medium fs-5" href="#">FAQ</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link mx-lg-2 fw-medium fs-5" href="#">Contact</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className='ml-5'>
+                    <button>Call Us</button>
+                </div>
+            </div>
+        </nav>
+    );
 }
+
+
+//                         <li className="nav-item">
+//                             <NavLink style={fontStyle} to="/" activeClassName="active-link">Home</NavLink>
+//                         </li>
+//                         <li className="nav-item">
+//                             <NavLink style={fontStyle} to="/offer" activeClassName="active-link">Offer</NavLink>
+//                         </li>
+//                         <li className="nav-item">
+//                             <NavLink style={fontStyle} to="/Details" activeClassName="active-link">Details</NavLink>
+//                         </li>
+//                         <li className="nav-item">
+//                             <NavLink style={fontStyle} to="/aboutus" activeClassName="active-link">About Us</NavLink>
+//                         </li>
+//                         <li className="nav-item">
+//                             <NavLink style={fontStyle} to="/faq" activeClassName="active-link">FAQ</NavLink>
+//                         </li>
+//                         <li className="nav-item">
+//                             <NavLink style={fontStyle} to="/contact" activeClassName="active-link">Contact</NavLink>
+//                         </li>
+//                         <li className="nav-item">
+//                             <div style={divStyle}>
+//                                 <a href="#" style={linkStyle}>Call Us</a>
+//                             </div>  
+//                         </li>
