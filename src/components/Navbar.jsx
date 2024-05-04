@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg sticky-top mt-2">
+        <nav className="navbar navbar-expand-lg sticky-top mt-2 mb-3">
             <div className="container-fluid">
                 <a className="navbar-brand me-auto" href="#">
                     <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3.svg" alt="" />
@@ -16,7 +16,7 @@ export default function Navbar() {
                     <div className="offcanvas-body">
                         <ul className="navbar-nav justify-content-end flex-grow-1 pe-5">
                             <li className="nav-item fw-medium fs-5">
-                                <NavLink className="nav-link active mx-lg-2" aria-current="page" to="/">Home</NavLink>
+                                <NavLink className="nav-link active mx-lg-2" aria-current="page" to="/" style={{color:'#3DEAC2'}}>Home</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link mx-lg-2 fw-medium fs-5"  to="/offer">Offer</NavLink>
