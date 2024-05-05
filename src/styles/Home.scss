@@ -11,15 +11,14 @@
     .book_section{
         display: flex;
         width: 65%;
-        border: 2px solid black;
         margin-left: 7rem;
-        margin-top: 2rem;
+        margin-top: 2.5rem;
         border-radius: 15px;
         height: 78%;
+        background-color: $blue;
 
         >.left_side{
-            border: 2px solid black;
-            width: 40%;
+            width: 45%;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
@@ -33,19 +32,75 @@
 
             >h1{
                 font-size: 3.5rem;
+                color: white;
             }
         }
 
         >.right_side{
-            width: 60%;
+            width: 60%;display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 2rem;
 
             >div{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            border: 2px solid black;
+            width: 90%;
+            padding: 2rem;
+            background-color: $boxBackground;
+            border-radius: 10px;
+                
+                >h3{
+                    color: white;
+                }
+
+                >ul{
+                    width: 90%;
+
+                    >li{
+                        list-style: none;
+                        width: 100%;
+                    }
+                }
+
+                >button{
+                    background-color: $green;
+                    width: 80%;
+                    height: 3rem;
+                    border: none;
+                    border-radius: 12px;
+                    color: white;
+                    margin-left: .9rem;
+                }
             }
         }
     }
+}
+
+.dropdown-toggle {
+    width: 100%;
+    background-color: $lightBlue;
+
+    &:hover{
+        background-color: $lightBlue;
+        cursor: pointer;
+    }
+}
+
+.dropdown{
+    background-color: $boxBackground;
+}
+.dropdown-menu {
+    width: 100%;
+}
+
+.inputDate[type="date"]{
+    background-color: $lightBlue; /* Assuming $lightBlue is defined in colors.scss */
+    border: none;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    color: white;
 }
