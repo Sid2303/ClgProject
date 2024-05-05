@@ -24,9 +24,27 @@
             flex-direction: column;
             justify-content: space-around;
             margin-left: 3rem;
+            padding-bottom: 4rem;
+            padding-top: 1rem;
 
             >img{
-                width: 50%;
+                width: 55%;
+            }
+
+            >h1{
+                font-size: 3.5rem;
+            }
+        }
+
+        >.right_side{
+            width: 60%;
+
+            >div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
             }
         }
     }
