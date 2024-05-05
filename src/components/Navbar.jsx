@@ -1,6 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+
+import "../styles/Navbar.scss";
+
 export default function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg sticky-top mt-2 mb-3">

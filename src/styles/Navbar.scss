@@ -4,7 +4,10 @@
     color: $green;
 }
 
-nav>div>div>button{
+nav{
+    background-color: white;
+
+    >div>div>button{
         color: black;
         font-weight: 400;
         font-size: larger;
@@ -12,6 +15,7 @@ nav>div>div>button{
         background-color: white;
         border: solid $green;
         border-radius: 15px;
+    }
 }
 
 

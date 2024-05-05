@@ -8,8 +8,7 @@ import Offer from "./components/Offer";
 import Home from "./components/Home";
 import Details from "./components/Details";
 
-import "./styles/Main.scss"
-import "./styles/Navbar.scss"
+import "./styles/Main.scss";
 
 function App() {
   return (
