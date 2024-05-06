@@ -9,7 +9,7 @@ import Home from "./components/Home";
 import Details from "./components/Details";
 
 import "./styles/Main.scss";
-import "./styles/Media.scss"
+import "./styles/Media.scss";
 
 function App() {
   return (

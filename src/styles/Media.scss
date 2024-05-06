@@ -27,16 +27,3 @@
     }
 }
 
-@media (max-width: 991px) {
-    .home {
-        > div {
-            .book_Section {
-                min-width: 100%;
-            }
-
-            .right_side .background_photo img {
-                width: 100%;
-            }
-        }
-    }
-}
