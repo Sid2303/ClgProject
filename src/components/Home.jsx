@@ -78,7 +78,7 @@ export default function Home() {
             </div>
           </div>
           <div className='background_photo'>
-            <img src="" alt="Image Here" />
+            <img src="https://images.pexels.com/photos/1545743/pexels-photo-1545743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image Here" />
           </div>
         </div>
       </div>
