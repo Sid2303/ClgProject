@@ -29,7 +29,7 @@
             margin-left: 0; // Remove left margin
             justify-content: center;
             align-items: center;
-            margin-top: 27rem;
+            margin-top: 30rem;
         }
     
         > .left_side {
@@ -129,7 +129,7 @@
 .inputDate[type='date'] {
     background-color: $lightBlue;
     border: none;
-    margin-left: 0.5rem;
+    margin-left: 2.5%;
     width: 95%;
     display: block;
     border-radius: 5px;
@@ -140,15 +140,36 @@
     }
 }
 
-.hero_section > .background_photo {
+.hero_section {
+    @media (max-width: 990px) {
+        width: 100%;
+    }
+
+    > .background_photo {
     z-index: -2;
     position: absolute;
     right: 7rem;
     top: 13%;
+    height: 40rem;
+    object-fit: cover;
+    object-position: center;
+
+    @media (max-width: 990px) {
+        right: 0;
+        width: 100%;
+        margin-top: 3rem;
+        overflow: hidden;
+    }
 
     > img {
         border-radius: 15px;
-        height: 40rem;
         object-fit: contain;
+        object-position: center;
+
+        @media (max-width: 990px) {
+            border-radius: 0;
+            content:url("https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        }
     }
+}
 }

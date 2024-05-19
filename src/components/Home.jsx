@@ -1,9 +1,7 @@
 import React from 'react';
 import "../styles/Home.scss";
-import { useState } from "react";
 
 export default function Home() {
-  const [startDate, setStartDate] = useState(new Date());
   return (
     <>
       <div className='home'>
@@ -27,9 +25,11 @@ export default function Home() {
                         Car Type
                       </button>
                       <ul className="dropdown-menu">
-                        <li><a className="dropdown-item" href="#">Action</a></li>
-                        <li><a className="dropdown-item" href="#">Another action</a></li>
-                        <li><a className="dropdown-item" href="#">Something else here</a></li>
+                        <li><a className="dropdown-item" href="#">Sedan</a></li>
+                        <li><a className="dropdown-item" href="#">Pickup</a></li>
+                        <li><a className="dropdown-item" href="#">Hatchback</a></li>
+                        <li><a className="dropdown-item" href="#">Vagon</a></li>
+                        <li><a className="dropdown-item" href="#">Minivan</a></li>
                       </ul>
                     </div>
                   </li>
@@ -39,9 +39,9 @@ export default function Home() {
                         Place of rental
                       </button>
                       <ul className="dropdown-menu">
-                        <li><a className="dropdown-item" href="#">Action</a></li>
-                        <li><a className="dropdown-item" href="#">Another action</a></li>
-                        <li><a className="dropdown-item" href="#">Something else here</a></li>
+                        <li><a className="dropdown-item" href="#">City 1</a></li>
+                        <li><a className="dropdown-item" href="#">City 2</a></li>
+                        <li><a className="dropdown-item" href="#">City 3</a></li>
                       </ul>
                     </div>
                   </li>
