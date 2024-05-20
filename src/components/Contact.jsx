@@ -104,6 +104,56 @@ export default function Contact() {
           </div>
         </div>
       </div>
+
+      <div className="showrooms">
+        <div>
+          <h1>Showrooms</h1>
+          <div>
+            <div className='addresses'>
+              <div>
+                <div>
+                  <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-contact-pic2.png" alt="" />
+                </div>
+                <div>
+                  <h5>Address 1</h5>
+                  <p>Level 13, 2 Elizabeth, Victoria</p>
+                  <p>3000, Australia</p>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-contact-pic2.png" alt="" />
+                </div>
+                <div>
+                  <h5>Address 1</h5>
+                  <p>Level 13, 2 Elizabeth, Victoria</p>
+                  <p>3000, Australia</p>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-contact-pic2.png" alt="" />
+                </div>
+                <div>
+                  <h5>Address 1</h5>
+                  <p>Level 13, 2 Elizabeth, Victoria</p>
+                  <p>3000, Australia</p>
+                </div>
+              </div>
+            </div>
+          <div>
+            <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15282225.79979123!2d73.7250245393691!3d20.750301298393563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1587818542745!5m2!1sen!2sin"
+                  frameborder="0"
+                  style={{ border: 0 }}
+                  allowfullscreen=""
+                  aria-hidden="false"
+                  tabIndex="0"
+              />
+          </div>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
