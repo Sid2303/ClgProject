@@ -7,6 +7,13 @@
     margin: 1rem 2.5rem;
     border-radius: 15px;
     background-color: $blue;
+    @media (max-width:1200px){
+        height: 270vh;
+    }
+    @media (max-width:770px){
+        margin: 0;
+        height: 220vh;
+    }
 
     >div{
         height: 32%;
@@ -14,6 +21,9 @@
         margin-top: 7rem;
         display: flex;
         justify-content: space-between;
+        @media (max-width:770px){
+            margin-top: 0;
+        }
 
         >.leftSide{
             margin-left: 5.5rem;
@@ -22,6 +32,12 @@
             flex-direction: column;
             line-height: 2rem;
             justify-content: space-around;
+            @media (max-width:770px){
+                width: 100%;
+                line-height: 0;
+                justify-content: center;
+                margin-left: 2rem;
+            }
 
             >p{
                 font-size: 1.25rem;
@@ -29,28 +45,62 @@
                 color: white;
             }
 
-            >h1{
+            > h1 {
                 font-size: 4rem;
                 color: white;
+
+                @media (max-width:1200px) {
+                    font-size: 3rem;
+                    width: 70%;
+                }
+
+                @media (max-width:770px){
+                    font-size: 2.5rem;
+                }
+                @media (max-width:770px){
+                    width: 100%;
+                }
             }
 
             >img{
                 height: 4rem;
                 width: 10rem;
+
+                @media (max-width:770px){
+                    display: none;
+                }
             }
         }
 
         >.rightSide{
             margin: 4rem 5rem;
+            @media (max-width:770px){
+                display: none;
+            }
         }
     }
 
     >.lowerSection{
         margin-left: 5.5rem;
+
+        @media (max-width:1200px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20%;
+        }
+        @media (max-width:770px){
+            margin: 0;
+            margin-top: 6rem;
+        }
         >.lowerLeft{
             display: flex;
             flex-direction: column;
             gap: 2rem;
+            @media (max-width:770px){
+                margin-top: 40%;
+            }
 
             >.phone{
                 display: flex;
@@ -61,22 +111,43 @@
                     align-items: baseline;
                     justify-content: baseline;
                     gap: 1.5rem;
+                    @media (max-width:1200px){
+                        justify-content: center;
+                        align-items: center;
+                        font-size: .75rem;
+                    }
+                    
 
                     >p{
                         font-size: 1.5rem;
                         color: white;
+                        @media (max-width:770px){
+                            font-size: 1.25rem;
+                        }
                     }
 
                     >h3{
                         font-weight: bold;
                         font-size: 2rem;
                         color: $green;
+                        @media (max-width:1200px){
+                            font-size: 1.5rem;
+                        }
+                        @media (max-width:770px){
+                            font-size: 1.25rem;
+                        }
                     }
 
                     >h1{
                         font-size: 3.5rem;
                         font-weight: 500;
                         color: $green;
+                        @media (max-width:1200px){
+                            font-size: 2.5rem;
+                        }
+                        @media (max-width:770px){
+                            font-size: 1.75rem;
+                        }
                     }
                 }
             }
@@ -86,6 +157,9 @@
             margin-right: 4rem;
             width: 50%;
             background-color: $boxBackground;
+            @media (max-width:1200px){
+                width: 100%;
+            }
 
             >div{
                 display: flex;
@@ -131,11 +205,24 @@
         color: white;
         >p{
             font-size: 1.5rem;
+            @media (max-width:770px){
+                font-size: 1.25rem;
+            }
         }
         >h1{
         font-size: 3rem;
         color: $green;
+        @media (max-width:770px){
+            font-size: 1.75rem;
         }
+        }
+    }
+
+    @media (max-width:1200px){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -152,6 +239,13 @@
         >p{
             font-size: 1.5rem;
         }
+    }
+    @media (max-width:1200px){
+        margin-bottom: 4rem;
+    }
+    
+    @media (max-width:770px){
+        margin-left: 1.5rem;
     }
 }
 
