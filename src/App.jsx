@@ -7,6 +7,7 @@ import Faq from "./components/Faq";
 import Offer from "./components/Offer";
 import Home from "./components/Home";
 import Details from "./components/Details";
+import Footer from "./components/Footer";
 
 import "./styles/Main.scss";
 import "./styles/Media.scss";
@@ -24,6 +25,7 @@ function App() {
           <Route path="/offer" element={<Offer />}/>
           <Route path="/details" element={<Details />}/>
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   )
