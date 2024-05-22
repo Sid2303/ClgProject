@@ -1,8 +1,14 @@
 import React from 'react'
 import { FaFacebookF, FaPinterestP, FaTwitter, FaInstagram, FaRegCopyright } from "react-icons/fa";
+import { BiArrowToTop } from "react-icons/bi";
 import '../styles/Footer.scss'
 
 export default function Footer() {
+
+  const topFunction= ()=> {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
   return (
     <>
         <footer>
@@ -35,14 +41,14 @@ export default function Footer() {
               </div>
               <div className="navigaton">
                 <h1>Navigation</h1>
-                <ul>
-                  <li><a href="">Home</a></li>
-                  <li><a href="">Details</a></li>
-                  <li><a href="">Offer</a></li>
-                  <li><a href="">About Us</a></li>
-                  <li><a href="">FAQ</a></li>
-                  <li><a href="">Contact</a></li>
-                </ul>
+                <div>
+                  <a href="">Home</a>
+                  <a href="">Details</a>
+                  <a href="">Offer</a>
+                  <a href="">About Us</a>
+                  <a href="">FAQ</a>
+                  <a href="">Contact</a>
+                </div>
               </div>
               <div className="downloadapp">
                 <h1>Download</h1>
@@ -54,11 +60,11 @@ export default function Footer() {
             </div>
             <div className='lower-section'>
               <div>
-                <FaRegCopyright />
+                <FaRegCopyright size={20}/>
                 <p> 2024 Betheme by <span>Muffin group</span>| All Rights Reserved </p>
               </div>
-              <div>
-                <button></button>
+              <div className='to-top-btn' onClick={topFunction}>
+                <BiArrowToTop size={30}/>
               </div>
             </div>
           </div>

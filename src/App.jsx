@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar"
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, ScrollRestoration } from "react-router-dom";
 
 import Aboutus from "./components/Aboutus";
 import Contact from "./components/Contact";
