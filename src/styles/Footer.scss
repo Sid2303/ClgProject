@@ -7,7 +7,6 @@ footer{
     justify-content: center;
     align-items: center;
 
-
     >div{
         width: 90%;
 
@@ -30,6 +29,13 @@ footer{
             li{
                 list-style: none;
             }
+
+            @media (max-width: 750px) {
+                margin-top: 10%;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
         }
     }
 }
@@ -42,16 +48,40 @@ footer{
 
         >p{
             font-size: 1.25rem;
+
+            @media (max-width: 750px){
+                font-size: 1rem;
+            }
         }
+    }
+
+    @media (max-width: 750px){
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     >.timing{
         display: flex;
         gap: 4rem;
+        @media (max-width: 750px){
+            flex-direction: column;
+            gap: 2rem;
+        }
 
         >div{
             >p{
             font-size: 1.1rem;
+            }
+
+            @media (max-width: 750px){
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 2rem;
             }
         }
     }
@@ -61,16 +91,30 @@ footer{
         display: flex;
         margin-top: 1rem;
         gap: 1rem;
+
+        @media (max-width: 750px){
+            font-size: 1rem;
+            margin-top: .5rem;
+        }
     }
 }
 
 .navigaton{
     display: flex;
     flex-direction: column;
+    @media (max-width: 750px){
+        margin-top: 1.5rem;
+    }
 
     >div{
         display: flex;
         flex-direction: column;
+
+        @media (max-width: 750px){
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 3rem;
+        }
 
         >a{
             font-size: 1.2rem;
@@ -85,11 +129,36 @@ footer{
     }
 }
 
+
+.download-app{
+    
+    @media (max-width: 750px){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    >div{
+        @media (max-width: 750px){
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
 .lower-section{
     display: flex;
     justify-content: space-between;
     border-top: 2px solid rgba(0, 0, 0, .2);
     width: 100%;
+
+    
+    @media (max-width: 750px){
+        flex-direction: column-reverse;
+    }
 
     >div{
         margin-top: 1rem;

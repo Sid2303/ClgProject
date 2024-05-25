@@ -50,8 +50,8 @@ export default function Footer() {
                   <a href="">Contact</a>
                 </div>
               </div>
-              <div className="downloadapp">
-                <h1>Download</h1>
+              <div className="download-app">
+                <h1>Download App</h1>
                 <div>
                   <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-footer-pic1.svg" alt="" />
                   <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-footer-pic2.svg" alt="" />

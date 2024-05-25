@@ -50,35 +50,38 @@ export default function Contact() {
               <h4>Book your car</h4>
               <div className="dropdown">
                 <a className="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
+                  Car Type
                 </a>
 
                 <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="#">Action</a></li>
-                  <li><a className="dropdown-item" href="#">Another action</a></li>
-                  <li><a className="dropdown-item" href="#">Something else here</a></li>
+                  <li><a className="dropdown-item" href="#">Sedan</a></li>
+                  <li><a className="dropdown-item" href="#">Pickup</a></li>
+                  <li><a className="dropdown-item" href="#">Hatchback</a></li>
+                  <li><a className="dropdown-item" href="#">Vagon</a></li>
+                  <li><a className="dropdown-item" href="#">Sports Car</a></li>
+                  <li><a className="dropdown-item" href="#">Minivan</a></li>
                 </ul>
               </div>
               <div className="dropdown">
                 <a className="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
+                  Place of rental
                 </a>
 
                 <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="#">Action</a></li>
-                  <li><a className="dropdown-item" href="#">Another action</a></li>
-                  <li><a className="dropdown-item" href="#">Something else here</a></li>
+                  <li><a className="dropdown-item" href="#">City 1</a></li>
+                  <li><a className="dropdown-item" href="#">City 2</a></li>
+                  <li><a className="dropdown-item" href="#">City 3</a></li>
                 </ul>
               </div>
               <div className="dropdown">
                 <a className="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
+                  Place of return
                 </a>
 
                 <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="#">Action</a></li>
-                  <li><a className="dropdown-item" href="#">Another action</a></li>
-                  <li><a className="dropdown-item" href="#">Something else here</a></li>
+                  <li><a className="dropdown-item" href="#">City 1</a></li>
+                  <li><a className="dropdown-item" href="#">City 2</a></li>
+                  <li><a className="dropdown-item" href="#">City 3</a></li>
                 </ul>
               </div>
               <div className='book-date'>
