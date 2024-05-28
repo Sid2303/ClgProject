@@ -1,7 +1,36 @@
-import React from 'react'
-import "../styles/Faq.scss"
+import React, { useState } from 'react';
+import "../styles/Faq.scss";
 
 export default function Faq() {
+  const [selected, setSelected] = useState(null);
+
+  const toggle = (i) => {
+    if (selected === i) {
+      setSelected(null);
+    } else {
+      setSelected(i);
+    }
+  };
+
+  const data = [
+    {
+      title: "Feugiat non in risus adipiscing mattis. Ut elit tempor.",
+      description: "Suspendisse orci magna iaculis mi. Fusce posuere cubilia Curae, Vivamus est neque, blandit iaculis, diam vestibulum faucibus augue.",
+    },
+    {
+      title: "Feugiat non in risus adipiscing mattis. Ut elit tempor.",
+      description: "Suspendisse orci magna iaculis mi. Fusce posuere cubilia Curae, Vivamus est neque, blandit iaculis, diam vestibulum faucibus augue.",
+    },
+    {
+      title: "Feugiat non in risus adipiscing mattis. Ut elit tempor.",
+      description: "Suspendisse orci magna iaculis mi. Fusce posuere cubilia Curae, Vivamus est neque, blandit iaculis, diam vestibulum faucibus augue.",
+    },
+    {
+      title: "Feugiat non in risus adipiscing mattis. Ut elit tempor.",
+      description: "Suspendisse orci magna iaculis mi. Fusce posuere cubilia Curae, Vivamus est neque, blandit iaculis, diam vestibulum faucibus augue.",
+    },
+  ];
+
   return (
     <>
       <div className="hero-section">
@@ -14,6 +43,54 @@ export default function Faq() {
           <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-icon4.svg" alt="" />
         </div>
       </div>
+
+      <div className="about-car">
+        <div className='car-image'>
+          <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-faq-pic1.webp" alt="" />
+        </div>
+        <div className='accordians'>
+          <div>
+            <h1>About Car</h1>
+            <div>
+              <div className="accordian">
+                {data.map((item, i) => (
+                  <div className={`item ${selected === i ? 'show' : ''}`} key={i}>
+                    <div className="title" onClick={() => toggle(i)}>
+                      <h2>{item.title}</h2>
+                      <span>{selected === i ? '-' : '+'}</span>
+                    </div>
+                    <div className="content">
+                      {item.description}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+          <div>
+            <h1>About Becarrental</h1>
+            <div>
+            <div className="accordian">
+              {data.map((item, i) => (
+                <div className={`item ${selected === i ? 'show' : ''}`} key={i}>
+                  <div className="title" onClick={() => toggle(i)}>
+                    <h2>{item.title}</h2>
+                    <span>{selected === i ? '-' : '+'}</span>
+                  </div>
+                  <div className="content">
+                    {item.description}
+                  </div>
+                </div>
+              ))}
+            </div>
+            </div>
+          </div>
+        </div>
+        <div className='curve'>
+          <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-faq-pic2.svg" alt="" />
+        </div>
+      </div>
+      <div className="looking-for-car"></div>
     </>
-  )
+  );
 }
