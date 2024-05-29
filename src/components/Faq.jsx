@@ -90,7 +90,29 @@ export default function Faq() {
           <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-faq-pic2.svg" alt="" />
         </div>
       </div>
-      <div className="looking-for-car"></div>
+        <div className="looking-for-car">
+          <div>
+          <div className='lhs'>
+            <h1>Looking for a car?</h1>
+            <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-offer-pic8.svg" alt="" />
+            <h2><span>+91</span>3 8376 6284</h2>
+            <div>
+              <div>
+                <p>Monday - Friday</p>
+                <p>09:00 AM - 06:00 PM</p>
+              </div>
+              <div>
+                <p>Saturday</p>
+                <p>10:00 AM - 02:00 PM</p>
+              </div>
+            </div>
+            <button>Book a car</button>
+          </div>
+          <div className='rhs'>
+            <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-offer-pic7.webp" alt="" />
+          </div>
+        </div>
+      </div>
     </>
   );
 }
