@@ -36,6 +36,53 @@ export default function Aboutus() {
         </div>
       </div>
 
+
+      <div className="order-car">
+        <div>
+          <div className='order-top'>
+            <h1>Order your car in <span>four easy steps</span></h1>
+          </div>
+          <div>
+            <div>
+              <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-num1.svg" alt="" className='num'/>
+              <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-about-icon1.svg" alt="" />
+              <div>
+                <h3>Date & Location</h3>
+                <p>Mus et leo et ornare.</p>
+              </div>
+              
+            </div>
+            <div>
+              <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-num2.svg" alt="" className='num'/>
+              <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-about-icon2.svg" alt="" />
+              <div>
+                <h3>Choose a Car</h3>
+                <p>Eu varius at molestie id.</p>
+              </div>
+              
+            </div>
+            <div>
+              <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-num3.svg" alt="" className='num'/>
+              <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-about-icon3.svg" alt="" />
+              <div>
+                <h3>Make a Booking</h3>
+                <p>Donec turpis in ultrices.</p>
+              </div>
+              
+            </div>
+            <div>
+              <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-num4.svg" alt="" className='num'/>
+              <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-about-icon4.svg" alt="" />
+              <div>
+                <h3>Enjoy Your Ride!</h3>
+                <p>Amet dui lacus ultrices.</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
     </>
   )
 }

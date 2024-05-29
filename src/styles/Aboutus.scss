@@ -170,3 +170,70 @@
         }
     }
 }
+
+.order-car{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+
+    >div{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 3rem;
+
+        >div{
+            margin-top: 4rem;
+            display: flex;
+            gap: 6rem;
+            width: 95%;
+
+            >div{
+                display: flex;
+                flex-direction: column;
+                height: 10rem;
+                width: 50%;
+                align-items: center;
+                justify-content: center;
+                object-fit: contain;
+                gap: 1.5rem;
+
+                >img{
+                    height: 4rem;
+                }
+
+                >.num{
+                    height: 2rem;
+                }
+
+                >div{
+                    margin-top: 1rem;
+
+                    >p{
+                        color: gray;
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+
+            >h1{
+                font-size: 4rem;
+
+                >span{
+                    color: $blue;
+                }
+            }
+        }
+
+        >.order-top{
+            width: 60%;
+            display: flex;
+            text-align: center;
+        }
+    }
+}
