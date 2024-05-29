@@ -94,11 +94,19 @@
                 margin-right: 4%;
             }
 
+            @media (max-width: 350px) {
+                border-radius: 0;
+            }
+
             >img{
                 object-fit: cover;
                 border-radius: 15px;
                 height: 100%;
                 width: 100%;
+
+                @media (max-width: 350px) {
+                    border-radius: 0;
+                }
             }
         }
 
@@ -115,6 +123,9 @@
             }
             @media (max-width:765px){
                 width: 70%;
+            }
+            @media (max-width: 500px){
+                width: 85%;
             }
 
             >h1{
@@ -166,6 +177,11 @@
                 color: white;
                 font-weight: 600;
                 font-size: 1.2rem;
+
+                @media (max-width: 500px) {
+                    width: 9rem;
+                    height: 4rem;
+                }
             }
         }
     }
@@ -187,21 +203,51 @@
         text-align: center;
         gap: 3rem;
 
+        
+        @media (max-width: 950px){
+            align-items: flex-start;
+            width: 100%;
+        }
+
         >div{
             margin-top: 4rem;
             display: flex;
             gap: 6rem;
-            width: 95%;
+            width: 100%;
+
+            
+            @media (max-width: 980px) {
+                gap: 2rem;
+                margin-top: 0;
+            }
+
+            @media (max-width: 950px) {
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-row: auto auto;
+                gap: 2rem;
+                justify-items: center;
+            }
+
+            @media (max-width: 450px) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
 
             >div{
                 display: flex;
                 flex-direction: column;
-                height: 10rem;
+                height: 15rem;
                 width: 50%;
                 align-items: center;
                 justify-content: center;
                 object-fit: contain;
                 gap: 1.5rem;
+                @media (max-width: 950px){
+                    width: 75%;
+                }
 
                 >img{
                     height: 4rem;
@@ -217,6 +263,18 @@
                     >p{
                         color: gray;
                         font-size: 1.2rem;
+
+                        
+                        @media (max-width: 980px) {
+                            font-size: 1rem;
+                        }
+                    }
+
+                    >h3{
+                        
+                        @media (max-width: 980px) {
+                            font-size: 1.2rem;
+                        }
                     }
                 }
             }
@@ -234,6 +292,18 @@
             width: 60%;
             display: flex;
             text-align: center;
+            margin-left: 8%;
+
+            @media (max-width: 950px){
+                text-align: start;
+                width: 80%;
+            }
+
+            >h1{
+                @media (max-width: 450px){
+                    font-size: 2.5rem;
+                }
+            }
         }
     }
 }
