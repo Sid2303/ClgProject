@@ -77,9 +77,43 @@ export default function Aboutus() {
                 <h3>Enjoy Your Ride!</h3>
                 <p>Amet dui lacus ultrices.</p>
               </div>
-
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="our-cars">
+        <div>
+          <p>Our cars</p>
+          <h1><span>Sed nullam leo</span> felis diam. Nullam ac lectus ut facilisi euismod a amet viverra.</h1>
+          <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-home-pic3.svg" alt="" />
+        </div>
+      </div>
+
+      <div className="get-order">
+        <div>
+            <div className='get-order-text'>
+              <h2>Nunc faucibus <span>egestas dolor</span></h2>
+              <h3>Bibendum eros tincidunt elit, dignissim duis non, nunc, convallis. Vitae adipiscing sit.</h3>
+              <p>Lacus aliquet nunc aliquam praesent mattis leo ornare aliquet eget. Aliquet quis lectus quis posuere at quis. Ut sed pharetra eu est lobortis. Aenean ut risus, nisl cras est nec, risus.</p>
+            </div>
+          <div>
+            <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-about-pic2.webp" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div className="download-mobile-app">
+        <div>
+          <h1><span>Download</span> mobile app</h1>
+          <p>Lacus aliquet nunc aliquam praesent mattis leo ornare aliquet eget. Aliquet quis lectus quis posuere at quis.</p>
+          <div>
+            <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-home-pic6.svg" alt="" />
+            <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-home-pic7.svg" alt="" />
+          </div>
+        </div>
+        <div>
+          <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-about-pic3.webp" alt="" />
         </div>
       </div>
 

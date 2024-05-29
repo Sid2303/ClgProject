@@ -50,28 +50,3 @@ export default function Navbar() {
         </nav>
     );
 }
-
-
-//                         <li className="nav-item">
-//                             <NavLink style={fontStyle} to="/" activeClassName="active-link">Home</NavLink>
-//                         </li>
-//                         <li className="nav-item">
-//                             <NavLink style={fontStyle} to="/offer" activeClassName="active-link">Offer</NavLink>
-//                         </li>
-//                         <li className="nav-item">
-//                             <NavLink style={fontStyle} to="/Details" activeClassName="active-link">Details</NavLink>
-//                         </li>
-//                         <li className="nav-item">
-//                             <NavLink style={fontStyle} to="/aboutus" activeClassName="active-link">About Us</NavLink>
-//                         </li>
-//                         <li className="nav-item">
-//                             <NavLink style={fontStyle} to="/faq" activeClassName="active-link">FAQ</NavLink>
-//                         </li>
-//                         <li className="nav-item">
-//                             <NavLink style={fontStyle} to="/contact" activeClassName="active-link">Contact</NavLink>
-//                         </li>
-//                         <li className="nav-item">
-//                             <div style={divStyle}>
-//                                 <a href="#" style={linkStyle}>Call Us</a>
-//                             </div>  
-//                         </li>
