@@ -105,16 +105,19 @@ export default function Aboutus() {
 
       <div className="download-mobile-app">
         <div>
-          <h1><span>Download</span> mobile app</h1>
-          <p>Lacus aliquet nunc aliquam praesent mattis leo ornare aliquet eget. Aliquet quis lectus quis posuere at quis.</p>
-          <div>
-            <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-home-pic6.svg" alt="" />
-            <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-home-pic7.svg" alt="" />
+          <div className='download-mobile-lhs'>
+            <h1><span>Download</span> mobile app</h1>
+            <p>Lacus aliquet nunc aliquam praesent mattis leo ornare aliquet eget. Aliquet quis lectus quis posuere at quis.</p>
+            <div className='download-mobile-lhs-images'>
+              <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-home-pic6.svg" alt="" />
+              <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-home-pic7.svg" alt="" />
+            </div>
+          </div>
+          <div className='download-mobile-rhs'>
+            <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-about-pic3.webp" alt="" />
           </div>
         </div>
-        <div>
-          <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-about-pic3.webp" alt="" />
-        </div>
+        
       </div>
 
     </>
