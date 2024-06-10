@@ -1,9 +1,10 @@
 {
   "homepage": "https://Sid2303.github.io/ClgProject",
   "name": "car-rental",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
+  "heading": "./",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -19,7 +20,6 @@
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@shadcn/ui": "^0.0.4",
-    "gh-pages": "^6.1.1",
     "primereact": "^10.6.5",
     "react": "^18.2.0",
     "react-datepicker": "^6.9.0",
@@ -36,6 +36,7 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "gh-pages": "^6.1.1",
     "vite": "^5.2.0"
   }
 }
