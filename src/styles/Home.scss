@@ -184,6 +184,13 @@
     align-items: center;
     margin-top: 2rem;
     margin-bottom: 10rem;
+    @media (max-width: 1000px) {
+        margin-top: 20%;
+    }
+
+    @media (max-width: 1000px) {
+        margin-top: 40%;
+    }
 
     >div{
         width: 80%;
@@ -238,6 +245,10 @@
                 gap: 1.5rem;
                 animation: RevealTop ease-in-out;
                 animation-timeline: view();
+
+                @media (max-width: 1000px) {
+                    margin-top: 20%;
+                }
 
                 @media (max-width: 950px){
                     width: 75%;
