@@ -117,7 +117,6 @@ export default function Aboutus() {
             <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-about-pic3.webp" alt="" />
           </div>
         </div>
-        
       </div>
 
     </>
