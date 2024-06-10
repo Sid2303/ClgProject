@@ -16,6 +16,10 @@ nav{
         border: solid $green;
         border-radius: 15px;
     }
+
+    @media (max-width: 850px) {
+        height: 6rem;
+    }
 }
 
 
