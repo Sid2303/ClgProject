@@ -26,7 +26,7 @@ function ScrollToTop() {
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/ClgProject">
       <ScrollToTop />
       <Navbar />
       <Routes>
