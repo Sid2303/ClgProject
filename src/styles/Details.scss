@@ -1,5 +1,7 @@
 @import 'colors.scss';
 
+@import 'animation.scss';
+
 .details{
     width: 100%;
     display: flex;
@@ -24,6 +26,7 @@
             display: flex;
             flex-direction: column;
             text-align: left;
+            animation: RevealRightNoScroll 1.5s ease-in-out;
 
             @media (max-width: 1060px) {
                 margin-bottom: 3rem;
@@ -88,6 +91,7 @@
         >.rhs{
             display: flex;
             flex-direction: column;
+            animation: RevealLeftNoScroll 1.5s ease-in-out;
 
             >div{
                 display: flex;
@@ -213,6 +217,8 @@
         >.lhs{
             width: 65%;
             height: 30rem;
+            animation: RevealRight ease-in-out;
+            animation-timeline: view();
 
             @media (max-width: 750px) {
                 width: 100%;
@@ -231,6 +237,10 @@
             height: 30rem;
             background-color: $boxBackground;
             border-radius: 15px;
+            animation: RevealLeft ease-in-out;
+            animation-timeline: view();
+
+
             @media (max-width:1200px){
                 width: 100%;
                 margin: 0;

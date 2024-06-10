@@ -1,6 +1,6 @@
 @import "colors.scss";
 
-@import "colors.scss";
+@import "animation.scss";
 
 .home > .hero_section {
     // Hero Section
@@ -22,6 +22,7 @@
         border-radius: 15px;
         height: 78%;
         background-color: $blue;
+        animation: RevealRight 3.5s ease-in-out;
     
         // Adjustments for screens below 990px
         @media (max-width: 990px) {
@@ -53,6 +54,7 @@
                 font-size: 3.5rem;
                 color: white;
             }
+
         }
     
         > .right_side {
@@ -153,6 +155,7 @@
     height: 40rem;
     object-fit: cover;
     object-position: center;
+    animation: RevealLeft 1.5s  ease-in-out;
 
     @media (max-width: 990px) {
         right: 0;
@@ -233,6 +236,9 @@
                 justify-content: center;
                 object-fit: contain;
                 gap: 1.5rem;
+                animation: RevealTop ease-in-out;
+                animation-timeline: view();
+
                 @media (max-width: 950px){
                     width: 75%;
                 }
@@ -332,6 +338,8 @@
         >.lhs{
             width: 42%;
             border-radius: 15px;
+            animation: RevealRight 1.5s ease-in-out;
+            animation-timeline: view();
 
             @media (max-width:980px){
                 width: 50%;
@@ -365,6 +373,8 @@
             justify-content: center;
             align-items: flex-start;
             gap: 2rem;
+            animation: RevealLeft 1.5s ease-in-out;
+            animation-timeline: view();
 
             @media (max-width:980px){
                 width: 50%;
@@ -562,6 +572,9 @@
             text-align: start;
             justify-content: center;
             width: 50%;
+            animation: RevealRight ease-in-out;
+            animation-timeline: view();
+
             @media (max-width:980px){
                 width: 80%;
             }
@@ -605,6 +618,8 @@
 
         >.download-mobile-rhs{
             object-fit:contain;
+            animation: RevealLeft ease-in-out;
+            animation-timeline: view();
 
             @media (max-width: 670px) {
                 display: none;

@@ -14,7 +14,7 @@ export default function Home() {
               <h1>Your Personal car rental</h1>
               <img src="https://themes.muffingroup.com/be/carrental3/wp-content/uploads/2022/02/carrental3-home-pic8.svg" alt="" />
             </div>
-
+            
             <div className='right_side'>
               <div className="table">
                 <h3>Book your car</h3>

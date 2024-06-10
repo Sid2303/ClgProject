@@ -1,5 +1,7 @@
 @import 'colors.scss';
 
+@import 'animation.scss';
+
 .hero-section{
     width: 100%;
     display: flex;
@@ -147,16 +149,21 @@
         z-index: 2;
         top: 35rem;
         left: 20%;
+        animation: RevealTopNoScroll 1.5s ease-in-out;
+
         @media (max-width: 1000px) {
             top: 38rem;
             left: 12%;
         }
+
         @media (max-width: 900px){
             top: 55%;
         }
+
         @media (max-width: 600px){
             top: 60%;
         }
+
         @media (max-width: 430px){
             top: 75%;
         }
