@@ -98,6 +98,7 @@
                 
                 >h1{
                     color: white;
+
                 }
 
                 >div{
@@ -235,6 +236,10 @@
                 color: white;
                 font-size: 4rem;
                 margin-bottom: 1rem;
+
+                @media (max-width: 600px) {
+                    font-size: 3rem;
+                }
             }
             >p{
                 color: white;

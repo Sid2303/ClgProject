@@ -48,7 +48,7 @@ html{
             justify-content: space-around;
             margin-left: 3rem;
             padding-bottom: 4rem;
-            padding-top: 1rem;
+            padding-top: 2rem;
     
             @media (max-width: 990px) {
                 display: none; // Hide left side on screens below 990px
@@ -71,6 +71,7 @@ html{
             justify-content: center;
             align-items: center;
             margin-right: 2rem;
+            height: 35rem;
 
             @media (max-width: 990px) {
                 width: 100%;
@@ -155,6 +156,7 @@ html{
     @media (max-width: 990px) {
         width: 100%;
     }
+    margin-bottom: 8rem;
 
     > .background_photo {
     z-index: -2;
@@ -174,6 +176,7 @@ html{
         right: 0;
         width: 100%;
         margin-top: 3rem;
+        top: 2%;
         overflow: hidden;
     }
 
