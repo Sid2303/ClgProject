@@ -191,13 +191,9 @@
     margin-bottom: 10rem;
 
     @media (max-width: 1000px) {
-        margin-top: 20%;
         margin-bottom: 0;
     }
 
-    @media (max-width: 1000px) {
-        margin-top: 5%;
-    }
 
     >div{
         width: 80%;
@@ -223,7 +219,7 @@
             
             @media (max-width: 980px) {
                 gap: 2rem;
-                margin-top: 0;
+                margin-top: 2rem;
             }
 
             @media (max-width: 950px) {
@@ -254,7 +250,7 @@
                 animation-timeline: view();
 
                 @media (max-width: 1000px) {
-                    margin-top: 20%;
+                    margin-top: 1rem;
                 }
 
                 @media (max-width: 950px){
